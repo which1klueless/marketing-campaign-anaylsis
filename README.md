@@ -1,68 +1,62 @@
 # marketing-campaign-analysis
-Analyzed a synthetic dataset containing 200,000 marketing campaign records using Google BigQuery and SQL to evaluate marketing performance, conversion rates, acquisition costs, and return on investment. 
+# Marketing Campaign Performance Analysis
 
-The objective was to identify performance trends across campaign types and develop data-driven insights to support marketing decisions. 
-Tools & Technologies
+## Project Overview
 
-Google BigQuery
+Analyzed a synthetic dataset containing 200,000 marketing campaign records using Google BigQuery and SQL to evaluate campaign performance, acquisition costs, and return on investment (ROI).
 
-SQL
+The objective was to identify performance trends across marketing channels and develop data-driven business insights.
 
-Excel
+## Tools & Technologies
 
-Power BI (Planned)
+- Google BigQuery
+- SQL
+- GitHub
+- Power BI (Planned)
 
-GitHub
+## SQL Skills Demonstrated
 
-SQL Skills Demonstrated
+- Data aggregation: COUNT, SUM, AVG
+- Conditional aggregation: CASE WHEN, COUNTIF
+- Common Table Expressions (CTEs)
+- Date analysis: EXTRACT
+- Grouping and sorting
+- Percentage calculations
 
-Data aggregation: COUNT, SUM, AVG
+## Key Analyses
 
-Data filtering: WHERE, AND
+### 1. High-Performing Campaign Analysis
 
-Common Table Expressions (CTEs)
+Identified which campaign types generated the highest number and percentage of records with ROI greater than 6.0.
 
-Conditional logic: CASE WHEN, COUNTIF
+### 2. Monthly ROI Analysis
 
-Date analysis: EXTRACT
+Analyzed campaign performance across months to identify the three periods with the highest average ROI.
 
-Grouping, sorting, and ranking
+### 3. Acquisition Cost Analysis
 
-Percentage calculations
+Compared average and total acquisition costs across campaign types to evaluate differences in marketing expenditure.
 
-Key Analyses
+## Key Findings
 
+- Influencer campaigns had the highest percentage of high-performing records at 33.64%.
+- September 2021 recorded the highest monthly average ROI at 5.0290.
+- Social Media campaigns had the highest average acquisition cost at approximately 12,512.70.
+- Influencer campaigns had the highest total acquisition cost at approximately 502.4 million in dataset units.
+- Performance differences across campaign types were relatively small.
 
-1. Campaign Performance Filtering
+## Business Insights
 
-Identified campaign types with more than 40,000 records and an average ROI exceeding 5.0.
+The findings highlight the importance of evaluating marketing campaigns using multiple performance metrics.
 
-2. Monthly ROI Analysis
+While Influencer campaigns had the highest proportion of high-performing records, acquisition costs and campaign volume should also be considered before making budget allocation decisions.
 
-Grouped campaign records by month and year to identify periods with the highest average ROI.
+## Dataset Limitations
 
-3. High-Performing Campaign Segmentation
+This project uses synthetic marketing data. The results demonstrate SQL analysis and business interpretation rather than verified real-world campaign outcomes.
 
-Calculated the number and percentage of campaigns achieving an ROI greater than 6.0.
+## Next Steps
 
-Key Findings
-
-Influencer campaigns recorded the highest average ROI at 5.0111.
-
-September 2021 recorded the highest monthly average ROI at 5.0290.
-
-Influencer campaigns had the highest proportion of records exceeding an ROI of 6.0, at 33.64%.
-
-Performance differences across campaign types were relatively small.
-
-Business Recommendations
-
-Further analysis of campaign costs, conversion rates, and customer acquisition efficiency would be necessary before recommending changes to marketing budget allocation.
-
-Dataset Limitations
-
-The dataset contains synthetic marketing records. Findings demonstrate SQL analysis and reporting techniques rather than verified real-world marketing outcomes.
-
-Project Status
-
-SQL analysis completed. Data visualization and interactive dashboard development are planned.
+- Develop an interactive Power BI dashboard.
+- Visualize ROI trends and acquisition costs.
+- Combine SQL findings into a marketing analytics case study.
